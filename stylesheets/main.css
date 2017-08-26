@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media only screen and (min-width : 300px) {
+    .navigation {
+        position: fixed;
+        height: 75px;
+        width: 100%;
+        background: black;
+        color: white;
+        
+    }
+    .splash-image {
+        /* height: 242px; */
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (min-width : 768px) {
+    
+    .navigation {
+        height: 80px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    .splash-image {
+        /* height: 425px; */
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width : 1200px) {
+    
+}
+
+
+.splash-text{
+    position:absolute; 
+    bottom:0; 
+    left: 55;
+    top:265;
+    font-size:50px; 
+    font-family:"vedana"; 
+    padding:10px 20px; 
+    /* width:100%;  */
+    text-align:left;
+}
+
+body.scrolled .navigation {
+    opacity: 0.2;
+    transition: opacity .2s;
+}
+body.scrolled .navigation:hover {
+  opacity: 1.0;
+  transition: opacity .2s;
+}
