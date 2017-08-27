@@ -71,7 +71,18 @@ html {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background: rgb(174,218,206);
+        background: rgb(85,129,150);
+    }
+    .tech-logos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 30px;
+        justify-content: center;
+        color: white;
+    }
+    .devicon {
+        padding: 5px;
     }
     .work {
         display: flex;
@@ -84,7 +95,8 @@ html {
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background: rgb(85,129,150);
+        background: rgb(174,218,206);
+       
     }
     .super-footer {
         display: flex;
@@ -104,12 +116,7 @@ html {
         padding:25px;
     }
     .logo {
-        font-family: 'Sacramento', serif;
-        font-weight: bold;
-        font-size: 20px;
-        padding: 10px;
-        width: 140px;
-        text-align: left;
+        display: none;
     }
     .social {
         display: flex;
@@ -126,6 +133,10 @@ html {
         /* position: absolute; */
         text-align: center;
         /* right: 20px; */
+    }
+    p {
+        text-align: center;
+        padding: 20px;
     }
 }
 
@@ -157,6 +168,15 @@ html {
         top: 150px;
         font-size:45px; 
         padding-left: 30px;
+    }
+    .logo {
+        display: inline;
+        font-family: 'Sacramento', serif;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+        width: 140px;
+        text-align: left;
     }  
 
 }
