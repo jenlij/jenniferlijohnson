@@ -9,11 +9,11 @@ myform.submit(function(event){
   myform.find("button").text("Sending...");
   emailjs.sendForm(service_id,template_id,"portContactForm")
   	.then(function(){ 
-    	alert("Sent!");
-       myform.find("button").text("Send");
+        $(".contact-tagline").html("Sent! Thank you!");
+        myform.find("button").text("Send");
     }, function(err) {
-       alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
-       myform.find("button").text("Send");
+        $(".contact-tagline").html("Yikes...Send email failed!\r\n Response:\n " + JSON.stringify(err));
+        myform.find("button").text("Send");
     });
   return false;
 });

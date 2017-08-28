@@ -6,144 +6,195 @@ html {
     box-sizing: inherit;
   }
 
-@media only screen and (min-width : 300px) {
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        position: fixed;
-        height: 30px;
-        width: 100%;
-        z-index: 1;
-        background: rgba( 255, 255, 255, 0.7);
-        color: black;
-    }
-    .navigation:hover {
-        background: rgba( 255, 255, 255, 0.9);
-    }
-    .home {
-        padding-left: 10px;
-        font-weight: bold;
-        font-family: 'Sacramento', serif;
-    }
-    .nav-text {
-        display: none;
-    }
-    .nav-icons {
-        padding-right: 5px;
-    }
-    .nav-fa {
-        padding: 7px;
-    }
-    .nav-fa:hover {
-        background: rgba(174,218,206, 0.7);
-    }
-    .splash-image {
-        width: 100%;
-    }
-    img {
-        width: 100%;
-    }
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    z-index: 1;
+    background: rgba( 255, 255, 255, 0.7);
+    color: black;
+}
+.navigation:hover {
+    background: rgba( 255, 255, 255, 0.9);
+}
+.home {
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: 'Sacramento', serif;
+}
+.nav-text {
+    display: none;
+}
+.nav-icons {
+    padding-right: 5px;
+}
+.nav-fa {
+    padding: 7px;
+}
+.nav-fa:hover {
+    background: rgba(174,218,206, 0.7);
+}
+.splash-image {
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+.splash-text{
+    position: absolute; 
+    font-family: 'Sacramento', serif;
+    top: 70px;
+    font-size: 30px; 
+    font-weight: bold;
+    padding-left: 20px;
+    text-align: left;
+    color: black;
+    line-height: 130%;
+    text-shadow: 0 0 0 rgb(174,218,206);
+    background: rgba(255,255,255,0.4);
+} 
+h2 {
+    font-family: 'Sacramento', serif;
+    font-size: 2rem;  
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+} 
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(85,129,150);
+}
+.tech-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 45px;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.devicon {
+    padding: 7px;
+}
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(174,218,206);
+}
+.super-footer {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon {
+    text-decoration: none;
+    color: black;
+}
+.info {
+    padding:25px;
+}
+.logo {
+    display: none;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.fa-heart {
+    color: #be0000;
+}
+.fa-coffee {
+    color: #52361b;
+}
+.made-with {
+    /* position: absolute; */
+    text-align: center;
+    /* right: 20px; */
+}
+.about-me {
+    text-align: center;
+    padding: 20px;
+}
+#portContactForm {
+    display: flex;
+    flex-direction: column;
+}
+.contact-title {
+
+    margin-bottom: 0px;
+}
+input {
+    font-family: 'Josefin Sans', sans-serif; 
+    border: grey 1px solid;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 5px;
+}
+textarea {
+    font-family: 'Josefin Sans', sans-serif; 
+    border: grey 1px solid;
+    border-radius: 2px;   
+    padding: 5px;
+    margin: 5px;
+}
+.contact-tagline {
+    text-align: center;
+}
+.send {
+    font-family: 'Josefin Sans', sans-serif; 
+    border: rgb(85,129,150) 1px solid;
+    border-radius: 2px; 
+    background: rgb(85,129,150);
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 25px;
+}
+.project {
+    width: 95%;
+    height: 225px;
+    border: 1px grey solid;
+    margin: 10px;
+}
+.about-title {
+    margin-bottom: 0;   
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
     .splash-text{
-        position: absolute; 
-        font-family: 'Sacramento', serif;
-        top: 70px;
-        font-size: 25px; 
-        font-weight: bold;
-        padding-left: 20px;
-        text-align: left;
-        color: black;
-        line-height: 130%;
-        text-shadow: 0 0 0 rgb(174,218,206);
-    } 
-    h2 {
-        font-family: 'Sacramento', serif;  
-    }
-    .about {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    } 
-    .tech {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        background: rgb(85,129,150);
-    }
-    .tech-logos {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 45px;
-        justify-content: center;
-        color: white;
-    }
-    .devicon {
-        padding: 7px;
-    }
-    .work {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-    .contact {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        background: rgb(174,218,206);
-       
-    }
-    .super-footer {
-        display: flex;
-        flex-direction: column;
-    }
-    footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-    .footer-icon {
-        text-decoration: none;
-        color: black;
-    }
-    .info {
-        padding:25px;
-    }
-    .logo {
-        display: none;
-    }
-    .social {
-        display: flex;
-        flex-direction: column;
-        padding: 25px;
-    }
-    .fa-heart {
-        color: #be0000;
-    }
-    .fa-coffee {
-        color: #52361b;
-    }
-    .made-with {
-        /* position: absolute; */
-        text-align: center;
-        /* right: 20px; */
-    }
-    p {
-        text-align: center;
-        padding: 20px;
-    }
-    #portContactForm {
-        display: flex;
-        flex-direction: column;
-    }
-    text-area {
-        font-family: 'Josefin Sans', sans-serif;    
+        top: 100px;
+        font-size:45px; 
+        padding-left: 30px;
+        background: none;
     }
 }
 
@@ -175,6 +226,7 @@ html {
         top: 150px;
         font-size:45px; 
         padding-left: 30px;
+        background: none;
     }
     .logo {
         display: inline;
@@ -188,6 +240,14 @@ html {
 
 }
 
+@media only screen and (min-width: 900px) {
+    .splash-text{
+        top: 200px;
+        font-size:55px; 
+        padding-left: 50px;
+        background: none;
+    }    
+}
 @media only screen and (min-width : 1200px) {
     .navigation {
         height: 75px;
@@ -213,7 +273,7 @@ html {
     .splash-text{
         position: absolute; 
         top: 245px;
-        font-size: 65px; 
+        font-size: 70px; 
         font-weight: bold;
         padding-left: 60px;
         padding-bottom: 230px;
