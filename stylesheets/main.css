@@ -77,12 +77,12 @@ html {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 30px;
+        font-size: 45px;
         justify-content: center;
         color: white;
     }
     .devicon {
-        padding: 5px;
+        padding: 7px;
     }
     .work {
         display: flex;
@@ -137,6 +137,13 @@ html {
     p {
         text-align: center;
         padding: 20px;
+    }
+    #portContactForm {
+        display: flex;
+        flex-direction: column;
+    }
+    text-area {
+        font-family: 'Josefin Sans', sans-serif;    
     }
 }
 

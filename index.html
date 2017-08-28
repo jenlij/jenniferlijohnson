@@ -11,6 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="stylesheets/main.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_tgVCYb4ZnR9bHonQG3FRJ");
+       })();
+    </script>
     <title>Jennifer Li Johnson</title>
 </head>
 <body>
@@ -51,21 +58,19 @@
     <div class="tech">
         <h2>Technologies</h2>
         <div class="tech-logos">
-            <i class="devicon devicon-amazonwebservices-plain-wordmark"></i>
-            <i class="devicon devicon-bootstrap-plain-wordmark"></i>
-            <i class="devicon devicon-css3-plain-wordmark"></i>
-            <i class="devicon devicon-express-original-wordmark"></i>
-            <i class="devicon devicon-git-plain-wordmark"></i>
-            <i class="devicon devicon-html5-plain-wordmark"></i>
             <i class="devicon devicon-javascript-plain"></i>
-            <i class="devicon devicon-jquery-plain-wordmark"></i>
-            <i class="devicon devicon-mocha-plain"></i>
-            <i class="devicon devicon-nginx-original"></i>
+            <i class="devicon devicon-react-original-wordmark"></i>
             <i class="devicon devicon-nodejs-plain-wordmark"></i>
             <i class="devicon devicon-postgresql-plain-wordmark"></i>
             <i class="devicon devicon-python-plain-wordmark"></i>
-            <i class="devicon devicon-react-original-wordmark"></i>
-            <i class="devicon devicon-ssh-plain-wordmark"></i>
+            <i class="devicon devicon-git-plain-wordmark"></i>
+            <i class="devicon devicon-amazonwebservices-plain-wordmark"></i>
+            <i class="devicon devicon-html5-plain-wordmark"></i>
+            <i class="devicon devicon-css3-plain-wordmark"></i>
+            <i class="devicon devicon-jquery-plain-wordmark"></i>
+            <i class="devicon devicon-express-original-wordmark"></i>
+            <i class="devicon devicon-nginx-original"></i>
+            <i class="devicon devicon-mocha-plain"></i>
             <i class="devicon devicon-ubuntu-plain-wordmark"></i>
         </div>
     </div>
@@ -74,6 +79,15 @@
     </div>
     <div class="contact">
         <h2>Contact</h2>
+        <form id="portContactForm" method="post">
+            <input type="text" name="from_name" placeholder="Name" required/>
+            <input type="text" name="from_email" placeholder="Email" required/>
+            <textarea name="message_html" id="messageBox" cols="20" rows="5" placeholder="Message" required></textarea>
+            <!-- <div class="g-recaptcha" data-sitekey="6LfHfC4UAAAAAEjhfy_XeVXHjOJe_5t0qzfsYChN"></div> -->
+            <button>
+            Send
+            </button>
+        </form>
     </div>
     <div class="super-footer">
     <footer>
@@ -81,7 +95,7 @@
             Jennifer Li Johnson </br>
             Software Engineer </br></br>
             Atlanta, Georgia </br>
-            jljohns1216@gmail.com </br>
+            jenniferlijohnson1@gmail.com </br>
         </div>
         <div class="logo"><i>J.L.J</i></div>
         <div class="social">
