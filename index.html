@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script type="text/javascript">
        (function(){
@@ -23,7 +25,7 @@
     <nav class="navigation">
         <i class="home">J.L.J</i>
         <div class="nav-text">
-            <div class="nt">About Me</div>
+            <a href="#about"><div class="nt">About Me</div></a>
             <div class="nt">Technologies</div>
             <div class="nt">Featured Work</div>
             <div class="nt">Contact</div>
@@ -44,15 +46,31 @@
             Atlanta, GA
         </div>
     </div>
-    <div class="about">
+    <div id="about" class="about">
         <h2 class="about-title">About Me</h2>
-        <p class="about-me">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Temporibus at libero, ex fuga aut, distinctio saepe magni inventore 
-            impedit ipsam nostrum molestias dolor, quae sequi illum obcaecati atque non sit? 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum aperiam quos 
-            exercitationem voluptate assumenda sint reprehenderit dolores nesciunt illum? 
-            Commodi, reprehenderit porro architecto eligendi consectetur veritatis ipsa eum excepturi repudiandae.
+        <p class="about-me">
+                
+                One of the things that excite me the most is the potential for science and technology to help human beings and change the world. 
+                I studied math at the University of Michigan with the intention of building a foundation for a career in medical/statistical research. 
+                However, along the way, I discovered such a joy for programming, and an amazement at what one could do with these tools, that I decided to turn this into the way I could make an impact. 
+        </br>
+    
+                After a stint in the Windy City wrangling some financial data and yearning to learn more coding so I could make better tools for my team, 
+                I had the opportunity to move to the ATL and learn web development full time with DigitalCrafts. 
+        </br>  
+                I’m thrilled and grateful to get to work in this incredible, and ever-evolving industry. 
+                
+                It is my mission to use these technological tools to help solve real problems and provide great value to businesses and their customers. I aim to perfect my craft, become the best engineer and problem-solver I can be, and help others around me do the same. 
+        </br>        
+                To unplug once in awhile, I enjoy practicing a balance of yoga, meditation, and martial arts, trying new delicious foods, and getting to know my new local community.
         </p>
+        <div class="badges">
+            <img src="images/UM.jpg" alt="Umich" class="org">
+            <img src="images/DC.jpg" alt="DigitalCrafts" class="org">
+            <img src="images/wwc.jpg" alt="Women Who Code ATL" class="org">
+            <img src="images/techladies.jpg" alt="Tech Ladies" class="org">
+            <img src="images/gdi.jpg" alt="Girl Develop It ATL" class="org">
+        </div>
     </div>
     <div class="tech">
         <h2 class="tech-title">Technologies</h2>
@@ -75,10 +93,21 @@
     </div>
     <div class="work">
         <h2>Featured Work</h2>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
-        <div class="project"></div>
+        <!-- images for mobile -->
+        <div class="project-images">
+            <div class="project mobile_img"><img src="images/Dasherstill.png" alt="Dasher-still"></div>
+            <div class="project mobile_img"><img src="images/biolingualstill.png" alt="biolingual-still"></div>
+            <div class="project mobile_img"><img src="images/gaspcstill.png" alt="gaspc-still"></div>
+            <!-- gifs for normal view -->
+            <!-- dasher gif -->
+            <div class="project gif"><iframe src='https://j.gifs.com/qjPL5y.gif' frameborder='0' scrolling='no' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe></div>
+            <!-- biolingual gif -->
+            <div class="project gif"><iframe src='https://j.gifs.com/66rGrR.gif' frameborder='0' scrolling='no' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe></div>
+            <!-- gas power calc gif -->
+            <div class="project gif"><iframe src='https://j.gifs.com/j2GN4R.gif' frameborder='0' scrolling='no' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe></div>
+            
+            <div class="project"><img src="images/newstory.png" alt="newstory"></div>
+        </div>
     </div>
     <div class="contact">
         <h2 class="contact-title">Contact</h2>
@@ -103,12 +132,13 @@
             jenniferlijohnson1@gmail.com </br>
         </div>
         <div class="logo"><i>J.L.J</i></div>
+        <!-- <div class="logo"><img src="images/favicon.png" alt="logo"></div> -->
         <div class="social">
-            <a href="" class="footer-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+            <a href="https://www.linkedin.com/in/jenniferlijohnson/" class="footer-icon"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a>
             <a href="" class="footer-icon"><i class="fa fa-file-text" aria-hidden="true"></i> Resume</a>
-            <a href="" class="footer-icon"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
-            <a href="" class="footer-icon"><i class="fa fa-medium" aria-hidden="true"></i> Medium</a>
-            <a href="" class="footer-icon"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+            <a href="https://github.com/jenlij" class="footer-icon"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+            <a href="https://medium.com/@jljohns1216" class="footer-icon"><i class="fa fa-medium" aria-hidden="true"></i> Medium</a>
+            <a href="https://twitter.com/JenLiJohnson" class="footer-icon"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a>
         </div>
     </footer>
     <div class="made-with">Made with 
