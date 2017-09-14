@@ -154,17 +154,26 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 95%
+    width: 95%;
+    /* height: 100%; */
 }
 .project {
     width: 95%;
-    margin: 10px;
+    margin: 10px; 
+}
+.dasher {
+
 }
 .biolingual {
     border: 1px solid black;
+    
+}
+.gas {
+ 
 }
 .newstory {
-    border: 1px solid black; 
+    border: 1px solid black;
+ 
 }
 
 /*************************************** CONTACT SECTION *************************************************/

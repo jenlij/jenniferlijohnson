@@ -3,11 +3,18 @@
         min-height: 500px;
     }
     .splash-text {
-        top: 45px;
+        top: 50px;
         font-size: 30px;
         padding-left: 40px;
     }
 }
+
+@media only screen and (min-width: 775px) {
+    .splash-image {
+        min-height: 600px;
+    }
+}
+
 
 @media only screen and (min-width: 800px) { /*Here's a good breakpoint*/
     .navigation {
@@ -19,28 +26,32 @@
         height: 100%;
     }
     .splash-image {
-        min-height: 650px;
+        min-height: 700px;
+    }
+    .project-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%
+    }
+    .project {
+        width: 45%;
+
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .splash-image {
+        min-height: 800px;
         background-size: cover;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     }
     .splash-text {
         top: 50px;
         font-size: 40px;
         padding-left: 45px;
-    }
-    .project-images {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 100%
-    }
-    .project {
-        width: 45%;
-        margin: 10px;
-
     }
 }
 
