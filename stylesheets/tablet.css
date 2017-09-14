@@ -20,18 +20,31 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
-    .splash-image {
-        min-height: 375px;
-    }
-    .splash-text {
-        top: 45px;
-        font-size: 25px;
-        padding-left: 35px;
-    }
-}
 
 @media only screen and (min-width: 600px) { /*Here's a good breakpoint*/
+    .navigation {
+        height: 50px;
+    }
+    .home {
+        padding-left: 15px;
+        font-size: 25px;
+    }
+    .nav-icons {
+        display: none;
+    }
+    .nav-text {
+        display: flex;
+        flex-direction: row;
+        padding-right: 15px;
+    }
+    .nt {
+        padding: 13.5px;
+        font-size: 20px;
+        height: 100%;
+    }
+    .nt:hover {
+        background: rgba(174,218,206, 0.7);
+    }
     .splash-image {
         min-height: 400px;
     }
@@ -40,6 +53,27 @@
         font-size: 25px;
         padding-left: 35px;
     }
+    .about, .tech, .work, .contact {
+        padding-top:40px;
+    } 
+    .about-title, .tech-title, .work-title, .contact-title {
+        font-size: 2rem;
+    }
+    .badge {
+        width: 60px;
+        height: 60px;
+        margin: 20px;
+    }
+    .tech-logos {
+        font-size: 60px;
+        padding: 10px;
+    }
+    .project {
+        width: 80%;
+        margin: 10px;
+
+    }
+
 }
 @media only screen and (min-width: 700px) { /*Here's a good breakpoint*/
     .splash-image {

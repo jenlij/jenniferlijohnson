@@ -150,6 +150,12 @@ a {
     font-size: 1.75rem; 
     margin-bottom: 20px;
 }
+.project-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%
+}
 .project {
     width: 95%;
     margin: 10px;
@@ -257,7 +263,7 @@ footer {
 }
 
 
-/*************************************** media queries to fix splash img *************************************************/
+/*************************************** media queries to fix splash img for mobile *************************************************/
 @media only screen and (min-width: 375px) {
     .splash-image {
         min-height: 250px;

@@ -10,6 +10,14 @@
 }
 
 @media only screen and (min-width: 800px) { /*Here's a good breakpoint*/
+    .navigation {
+        height: 70px;
+    }
+    .nt {
+        padding: 23.5px;
+        font-size: 20px;
+        height: 100%;
+    }
     .splash-image {
         min-height: 650px;
         background-size: cover;
@@ -21,6 +29,18 @@
         top: 50px;
         font-size: 40px;
         padding-left: 45px;
+    }
+    .project-images {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%
+    }
+    .project {
+        width: 45%;
+        margin: 10px;
+
     }
 }
 
