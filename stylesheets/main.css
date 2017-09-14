@@ -1,11 +1,14 @@
-/* default styles */
+/******************************* default styles for smallest viewports*********************************/
 html, body {
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-  }
-  *, *:before, *:after {
+}
+
+*, *:before, *:after {
     box-sizing: inherit;
-  }
+}
+
+/******************************************** NAVIGATION *********************************************/
 .navigation {
     display: flex;
     flex-direction: row;
@@ -18,14 +21,16 @@ html, body {
     background: rgba( 255, 255, 255, 0.7);
     color: black;
 }
+
+.navigation:hover {
+    background: rgba( 255, 255, 255, 0.9);
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
-.navigation:hover {
-    background: rgba( 255, 255, 255, 0.9);
-}
 .home {
     padding-left: 10px;
     font-weight: bold;
@@ -43,25 +48,37 @@ a {
 .nav-fa:hover {
     background: rgba(174,218,206, 0.7);
 }
+
+/*************************************** SPLASH IMAGE *************************************************/
 .splash-image {
-    width: 100%;
-}
-img {
-    width: 100%;
+    min-height: 200px;
+    
+    background-image: url("../images/splash2.jpg");
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    
 }
 .splash-text{
     position: absolute; 
     font-family: 'Sacramento', serif;
-    top: 70px;
-    font-size: 20px; 
-    font-weight: bold;
-    padding-left: 20px;
+    top: 30px;
+    font-size: 14px;
+    padding-left: 10px;
     text-align: left;
     color: black;
-    line-height: 130%;
+    line-height: 250%;
     text-shadow: 2px 2px 2px rgb(174,218,206);
-    background: rgba(255,255,255,0.4);
 } 
+
+/*************************************** ABOUT SECTION *************************************************/
+
+
 h2 {
     font-family: 'Sacramento', serif;
     font-size: 2rem;  
@@ -198,12 +215,9 @@ textarea {
     margin: 5px;
     margin-bottom: 25px;
 }
-iframe {
-    width: 600px;
-    height: 360px;
-}
+
 .project {
-    /* width: 95%; */
+    width: 100px;
     /* height: 225px; */
     border: 1px grey solid;
     margin: 10px;
@@ -212,142 +226,8 @@ iframe {
     margin-bottom: 0;   
 }
 
-
-.mobile_img {
-    display: inline;
+.project-images {
+    width: 100%;
+    justify-content: center;
 }
-.gif {
-    display: none;
-}
-
-@media only screen and (min-width: 300px) {
-    .project-images {
-        width: 100%;
-        justify-content: center;
-    }
-
-}
-
-@media only screen and (min-width: 360px) {
-}
-
-@media only screen and (min-width: 600px) {
-
-    .mobile_img {
-        display: none;
-    }
-    .gif {
-        display: inline;
-    }
-    .splash-text{
-        top: 100px;
-        font-size:45px; 
-        padding-left: 30px;
-        background: none;
-    }
-}
-
-@media only screen and (min-width : 768px) {
-
-    .navigation {
-        height: 50px;
-    }
-    .home {
-        padding-left: 15px;
-        font-size: 25px;
-    }
-    .nav-icons {
-        display: none;
-    }
-    .nav-text {
-        display: flex;
-        flex-direction: row;
-        padding-right: 15px;
-    }
-    .nt {
-        padding: 13.5px;
-        font-size: 20px;
-        height: 100%;
-    }
-    .nt:hover {
-        background: rgba(174,218,206, 0.7);
-    }
-    .splash-text{
-        top: 150px;
-        font-size:45px; 
-        padding-left: 30px;
-        background: none;
-    }
-    .logo {
-        display: inline;
-        font-family: 'Sacramento', serif;
-        font-weight: bold;
-        font-size: 20px;
-        padding: 10px;
-        width: 140px;
-        text-align: left;
-    }  
-
-}
-
-@media only screen and (min-width: 900px) {
-    .splash-text{
-        top: 200px;
-        font-size:55px; 
-        padding-left: 50px;
-        background: none;
-    }    
-}
-@media only screen and (min-width : 1200px) {
-    .project-images {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        width: 95%;
-        margin-bottom: 25px;
-    }
-    .project {
-        width: 45%;
-        height: 360px;
-        border: 1px grey solid;
-        margin: 10px;
-        overflow: hidden;
-    }
-    .navigation {
-        height: 75px;
-    }
-    .home {
-        padding-left: 25px;
-        font-size: 30px;
-    }
-    .nav-icons {
-        display: none;
-    }
-    .nav-text {
-        display: flex;
-        flex-direction: row;
-        padding-right: 25px;
-    }
-    .nt {
-        padding: 23.5px;
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 25px;
-    }
-    .splash-text{
-        position: absolute; 
-        top: 245px;
-        font-size: 70px; 
-        font-weight: bold;
-        padding-left: 60px;
-        padding-bottom: 230px;
-        text-align: left;
-        color: black;
-        line-height: 130%;
-    }    
-}
-
-
 
