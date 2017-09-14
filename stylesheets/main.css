@@ -48,7 +48,7 @@ a {
 /*************************************** SPLASH IMAGE *************************************************/
 .splash-image {
     min-height: 200px;
-    
+    width: 100%;
     background-image: url("../images/splash2.jpg");
     /* background-position: center; */
     background-attachment: fixed;
@@ -199,6 +199,7 @@ textarea {
 }
 .contact-tagline {
     text-align: center;
+    padding-top: 10px;
 }
 .send {
     font-family: 'Josefin Sans', sans-serif; 
@@ -242,6 +243,7 @@ footer {
 .social {
     display: flex;
     flex-direction: column;
+
     padding: 25px;
 }
 .fa-heart {
@@ -255,3 +257,163 @@ footer {
     padding-bottom: 20px;
 }
 
+
+/*************************************** media queries to fix splash img *************************************************/
+@media only screen and (min-width: 375px) {
+    .splash-image {
+        min-height: 250px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .splash-image {
+        min-height: 275px;
+    }
+    .splash-text {
+        top: 40px;
+        font-size: 16px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .splash-image {
+        min-height: 300px;
+    }
+    .splash-text {
+        top: 40px;
+        font-size: 18px;
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .splash-image {
+        min-height: 325px;
+    }
+    .splash-text {
+        top: 40px;
+        font-size: 20px;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .splash-image {
+        min-height: 350px;
+    }
+    .splash-text {
+        top: 45px;
+        font-size: 24px;
+        padding-left: 35px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .splash-image {
+        min-height: 375px;
+    }
+    .splash-text {
+        top: 45px;
+        font-size: 25px;
+        padding-left: 35px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .splash-image {
+        min-height: 400px;
+    }
+    .splash-text {
+        top: 45px;
+        font-size: 25px;
+        padding-left: 35px;
+    }
+}
+@media only screen and (min-width: 700px) {
+    .splash-image {
+        min-height: 450px;
+    }
+    .splash-text {
+        top: 45px;
+        font-size: 28px;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .splash-image {
+        min-height: 475px;
+    }
+    .splash-text {
+        top: 45px;
+        font-size: 30px;
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .splash-image {
+        min-height: 500px;
+    }
+    .splash-text {
+        top: 50px;
+        font-size: 30px;
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    .splash-image {
+        min-height: 550px;
+    }
+    .splash-text {
+        top: 50px;
+        font-size: 35px;
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .splash-image {
+        min-height: 600px;
+    }
+    .splash-text {
+        top: 50px;
+        font-size: 38px;
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .splash-image {
+        min-height: 650px;
+    }
+    .splash-text {
+        top: 50px;
+        font-size: 38px;
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .splash-image {
+        min-height: 900px;
+    }
+    .splash-text {
+        top: 50px;
+        font-size: 38px;
+        padding-left: 45px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .splash-image {
+        min-height: 1100px;
+    }
+    .splash-text {
+        top: 50px;
+        font-size: 38px;
+        padding-left: 45px;
+    }
+}
