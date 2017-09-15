@@ -11,7 +11,7 @@
 
 @media only screen and (min-width: 775px) {
     .splash-image {
-        min-height: 600px;
+        min-height: 500px;
     }
 }
 
@@ -26,23 +26,62 @@
         height: 100%;
     }
     .splash-image {
-        min-height: 700px;
+        min-height: 500px;
+    }
+    .about-text {
+        font-size: 1.1rem;
+        line-height: 150%;
+    }
+    .badge {
+        width: 80px;
+        height: 80px;
+        margin: 30px;
+        margin-bottom: 30px;
+        border-radius: 50%;
+    }
+    .about, .tech, .work, .contact {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    } 
+    .about-title, .tech-title, .work-title, .contact-title {
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+    .tech-logos {
+        font-size: 80px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .devicon {
+        padding: 10px;
     }
     .project-images {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
         width: 100%
     }
     .project {
         width: 45%;
-
         margin: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        /* align-items: center; */
+    }
+    .logo {
+        display: inline;
+        font-family: 'Sacramento', serif;
+        font-size: 25px;
+        font-weight: bold;
     }
 }
 
 @media only screen and (min-width: 850px) {
     .splash-image {
-        min-height: 800px;
+        min-height: 700px;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -52,6 +91,14 @@
         top: 50px;
         font-size: 40px;
         padding-left: 45px;
+    }
+    .about, .tech, .work, .contact {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    } 
+    .about-title, .tech-title, .work-title, .contact-title {
+        font-size: 3rem;
+        padding-bottom: 30px;
     }
 }
 
