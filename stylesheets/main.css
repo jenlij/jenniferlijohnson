@@ -2,7 +2,7 @@
 html, body {
     box-sizing: border-box;
     /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Noto Sans', sans-serif; */
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -11,6 +11,11 @@ html, body {
     font-family: Actonia;
     src: url(../Actonia.ttf);
 }
+
+/* .jen-name {
+    font-size: 30px;
+} */
+
 /******************************************** NAVIGATION *********************************************/
 .navigation {
     display: flex;
@@ -156,6 +161,7 @@ a {
     /* font-family: 'Actonia', 'serif'; */
     font-size: 1.75rem; 
     margin-bottom: 20px;
+    color: white;
 }
 .devicon {
     padding: 7px;
