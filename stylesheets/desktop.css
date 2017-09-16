@@ -89,7 +89,8 @@
         -o-background-size: cover;
     }
     .splash-text {
-        top: 80px;
+        /* top: 80px; */
+        top: 150px;
         font-size: 40px;
         padding-left: 45px;
     }
@@ -109,7 +110,8 @@
         min-height: 900px;
     }
     .splash-text {
-        top: 80px;
+        /* top: 80px; */
+        top: 200px;
         font-size: 40px;
         padding-left: 50px;
     }
