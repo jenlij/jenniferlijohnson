@@ -54,7 +54,7 @@ a {
 .splash-image {
     min-height: 200px;
     width: 100%;
-    background-image: url("../images/splash2.jpg");
+    background-image: url("../images/grey.jpg");
     /* background-position: center; */
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -72,10 +72,13 @@ a {
     font-size: 14px;
     padding-left: 10px;
     text-align: left;
-    color: black;
+    /* color: black; */
+    color: white;
     /* line-height: 200%; */
     /* text-shadow: 2px 2px 2px rgb(174,218,206); */
-    text-shadow: 2px 2px 2px rgb(215,231,235);
+    /* text-shadow: 2px 2px 2px rgb(215,231,235); */
+    /* background: rgba(0,0,0,0.35); */
+    width: 100%;
     
 } 
 .name {
