@@ -47,6 +47,7 @@
         font-size: 2rem;
         padding-bottom: 30px;
     }
+
     .tech-logos {
         font-size: 80px;
         margin-left: 10px;
@@ -101,6 +102,15 @@
     .about-title, .tech-title, .work-title, .contact-title {
         font-size: 3rem;
         padding-bottom: 30px;
+    }
+
+    .contact-tagline {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .contact-title {
+        padding-bottom: 0;
     }
 }
 
