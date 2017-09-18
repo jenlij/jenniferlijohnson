@@ -52,6 +52,9 @@ $(window).on('scroll', function () {
       nav.find('a[href="#'+$(this).attr('id')+'"]').addClass('active');
     }
   });
+  if($(window).scrollTop() === 0) {
+    nav.find('a').removeClass('active');
+  }
 });
 
 nav.find('a').on('click', function () {
