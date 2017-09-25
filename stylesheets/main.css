@@ -1,15 +1,10 @@
 /******************************* default styles for smallest viewports*********************************/
 html, body {
     box-sizing: border-box;
-    /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 *, *:before, *:after {
     box-sizing: inherit;
-}
-@font-face {
-    font-family: Actonia;
-    src: url(../Actonia.ttf);
 }
 /******************************************** NAVIGATION *********************************************/
 .navigation {
@@ -38,13 +33,12 @@ a {
     padding-left: 10px;
     font-weight: bold;
     font-family: 'Sacramento', serif;
-    /* font-family: 'Actonia', 'serif'; */
 }
 .nav-text {
     display: none;
 }
 .nav-icons {
-    padding-right: 5px;
+    padding-right: 10px;
 }
 .nav-fa {
     padding: 7px;
@@ -70,17 +64,11 @@ a {
 .splash-text{
     position: absolute; 
     font-family: 'Sacramento', serif;
-    /* font-family: 'Actonia', 'serif'; */
-    top: 30px;
+    top: 50px;
     font-size: 14px;
     padding-left: 10px;
     text-align: left;
-    /* color: black; */
     color: white;
-    /* line-height: 200%; */
-    /* text-shadow: 2px 2px 2px rgb(174,218,206); */
-    /* text-shadow: 2px 2px 2px rgb(215,231,235); */
-    /* background: rgba(0,0,0,0.35); */
     width: 100%;
     
 } 
@@ -88,8 +76,7 @@ a {
     font-style: italic;
 }
 .subs {
-    /* font-family: 'Josefin Sans', sans-serif; */
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding-top: 20px;
     font-size: 0.6em;
     font-weight: normal;
@@ -224,6 +211,13 @@ li::before {content: "\2022"; color: rgb(85,129,150);
     align-items: center;
     width: 100%;
     background: rgb(174,218,206);
+    background-image: url("../images/mural.JPG");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 .contact-title {
     font-family: 'Sacramento', serif;
@@ -327,7 +321,7 @@ footer {
         min-height: 275px;
     }
     .splash-text {
-        top: 40px;
+        top: 50px;
         font-size: 16px;
         padding-left: 20px;
     }
@@ -338,7 +332,7 @@ footer {
         min-height: 300px;
     }
     .splash-text {
-        top: 40px;
+        top: 60px;
         font-size: 18px;
         padding-left: 25px;
     }

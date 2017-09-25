@@ -3,7 +3,7 @@
         min-height: 500px;
     }
     .splash-text {
-        top: 50px;
+        top: 90px;
         font-size: 30px;
         padding-left: 40px;
     }
@@ -89,9 +89,8 @@
         -o-background-size: cover;
     }
     .splash-text {
-        /* top: 80px; */
-        top: 150px;
-        font-size: 40px;
+        top: 120px;
+        font-size: 35px;
         padding-left: 45px;
     }
     .about, .tech, .work, .contact {
