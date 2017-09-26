@@ -168,12 +168,18 @@ a {
     width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
-    margin-bottom: 2em;   
+    margin-bottom: 2em;  
 }
 .work-title {
     font-family: 'Sacramento', serif;
     font-size: 2.5em;
 }
+/* .work-tagline {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    padding: 1.75em;
+    line-height: 150%;
+} */
 .project-images {
     display: flex;
     flex-direction: column;
@@ -186,6 +192,21 @@ a {
     text-align: center;
     /* background-color: rgb(215,231,235); */
 }
+.demo-button{
+    border: 1px rgb(85,129,150) solid;
+    font-size: 0.8em;
+    padding: 0.3em;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(85,129,150);
+    width: 60px;
+    height: 30px;
+}
+.demo-button:hover {
+    color: rgb(85,129,150);
+    background-color: white;
+}
+
 .dasher { 
     width: 100%;
 }
