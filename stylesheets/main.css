@@ -92,8 +92,7 @@ a {
 } 
 .about-title {
     font-family: 'Sacramento', serif;
-    /* font-family: 'Open Sans', sans-serif; */
-    font-size: 1.75rem;
+    font-size: 2.5em;
     margin-bottom: 0; 
 }
 .about-text {
@@ -107,12 +106,16 @@ a {
     display: flex;
     flex-direction: row;
     margin-bottom: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .badge {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
-    margin-bottom: 20px;
+    /* width: 50px;
+    height: 50px; */
+    width: 4em;
+    height: 4em;
+    margin: 1.5em;
+    /* margin: 10px; */
     border-radius: 50%;
 }
 .wwc {
@@ -127,7 +130,8 @@ a {
     align-items: center;
     background: rgb(85,129,150);
     width: 100%;
-    padding-top: 20px;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .tech-logos {
     display: flex;
@@ -135,18 +139,18 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     color: white;
-    font-size: 45px;
-    padding: 5px;
-    margin-bottom: 25px;
+    font-size: 4.5em;
+    padding: 10px;
+    margin-bottom: 1em;
 }
 .tech-title {
     font-family: 'Sacramento', serif;
-    /* font-family: 'Actonia', 'serif'; */
-    font-size: 1.75rem; 
-    margin-bottom: 20px;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: white;
 }
 .devicon {
-    padding: 7px;
+    padding: 0.3em;
 }
 
 /*************************************** WORK SECTION *************************************************/
@@ -156,15 +160,13 @@ a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;   
 }
 .work-title {
     font-family: 'Sacramento', serif;
-    /* font-family: 'Actonia', 'serif'; */
-    font-size: 1.75rem; 
-    margin-bottom: 25px;
+    font-size: 2.5em;
 }
 .project-images {
     display: flex;
@@ -174,7 +176,7 @@ a {
 }
 .project {
     width: 95%;
-    margin: 10px;
+    margin: 1em;
     background-color: rgb(215,231,235);
 }
 .dasher { 
@@ -191,7 +193,7 @@ a {
     width: 100%;
     border: 1px solid black;
 }
-.project-description {
+/* .project-description {
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -199,12 +201,7 @@ a {
 }
 .button {
     border: 1px solid white;
-    /* height: 50%;  */
-}
-ul {list-style: none}
-li::before {content: "\2022"; color: rgb(85,129,150);
-    display: inline-block; width: 1em;
-    margin-left: -1em}
+} */
 /*************************************** CONTACT SECTION *************************************************/
 
 .contact {
@@ -212,58 +209,66 @@ li::before {content: "\2022"; color: rgb(85,129,150);
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: rgb(174,218,206);
-    background-image: url("../images/mural.JPG");
+    background: rgb(85,129,150);
+    background-image: url("../images/mural-darken.JPG");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 2em;   
 }
 .contact-title {
     font-family: 'Sacramento', serif;
-    /* font-family: 'Actonia', 'serif'; */
-    font-size: 1.75rem; 
-    padding-top: 20px;
-    margin-bottom: 0;
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 10px;
 }
 #portContactForm {
     display: flex;
     flex-direction: column;
 }
 input {
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     border: grey 1px solid;
     border-radius: 2px;
     width: 45%;
     padding: 5px;
-    margin: 5px;  
+    margin: 10px;  
 }
 textarea {
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     border: grey 1px solid;
     border-radius: 2px;  
     width: 95%;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
 }
 .contact-tagline {
+    color: white;
     text-align: center;
-    padding-top: 20px;
+    line-height: 150%;
+    font-size: 1.2em;
 }
 .send {
-    font-family: 'Josefin Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     border: rgb(85,129,150) 1px solid;
     border-radius: 2px; 
     background: rgb(85,129,150);
     color: white;
     padding: 5px;
-    margin: 5px;
+    margin: 10px;
     margin-bottom: 25px;
     width: 95%;
 }
-
+.send:hover {
+    border: rgb(85,129,150) 1px solid;
+    background: white;
+    color: rgb(85,129,150);
+}
 
 /*************************************** FOOTER *************************************************/
 
