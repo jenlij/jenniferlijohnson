@@ -149,6 +149,12 @@ a {
     margin-bottom: 1em;
     color: white;
 }
+.tech-tagline {
+    color: white;
+    font-size: 0.9em;
+    margin-bottom: 1em;
+}
+
 .devicon {
     padding: 0.3em;
 }
@@ -177,7 +183,8 @@ a {
 .project {
     width: 95%;
     margin: 1em;
-    background-color: rgb(215,231,235);
+    text-align: center;
+    /* background-color: rgb(215,231,235); */
 }
 .dasher { 
     width: 100%;
@@ -237,7 +244,7 @@ input {
     border-radius: 2px;
     width: 45%;
     padding: 5px;
-    margin: 10px;  
+    margin: 5px;  
 }
 textarea {
     font-family: 'Open Sans', sans-serif;
@@ -245,7 +252,7 @@ textarea {
     border-radius: 2px;  
     width: 95%;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
 }
 .contact-tagline {
     color: white;
@@ -260,7 +267,7 @@ textarea {
     background: rgb(85,129,150);
     color: white;
     padding: 5px;
-    margin: 10px;
+    margin: 5px;
     margin-bottom: 25px;
     width: 95%;
 }
